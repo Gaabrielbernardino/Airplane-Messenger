@@ -137,3 +137,57 @@
   top: calc(50vh - 150px);
   left: calc(50vw - 150px);
 }
+
+
+#new-chat-plus-button {
+  background-color: #C26BFF !important;
+}
+
+
+#new-chat-plus-button:hover {
+  background-color: #fff !important;
+  border: 2px solid #C26BFF !important ;
+  transition: 0.5s !important;
+  color: #333 !important;
+}
+
+.ce-chat-title-text {
+  color: #C26BFF !important;
+}
+
+.ce-chat-subtitle-text {
+  color: #333;
+}
+
+
+
+.ce-chat-unread-dot {
+  background-color: #C26BFF !important;
+}
+
+.ce-input::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ce-input:hover {
+  border-color: #C26BFF !important;
+}
+
+#ce-send-message-button {
+  background-color: #C26BFF !important;
+}
+
+#ce-ice-breaker-text {
+  visibility: hidden;
+}
+
+#ce-ice-breaker-text::after {
+  content: "Ainda não há mensagens";
+  display: block;
+  visibility: visible;
+  color: rgb(175, 175, 175);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
